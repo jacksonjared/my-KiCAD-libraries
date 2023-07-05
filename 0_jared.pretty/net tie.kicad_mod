@@ -1,0 +1,17 @@
+(footprint "net tie" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e1ad115f-d7ee-4176-85c1-b98b39325e5e)
+  )
+  (fp_text value "net tie" (at 0 6 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b118505b-b972-4394-906a-dd1b906786a7)
+  )
+  (pad "1" smd rect (at -0.3 0) (size 0.6 0.5) (layers "F.Cu")
+    (solder_mask_margin 0.000001) (clearance 0.000001) (tstamp 0544d862-ca93-4058-8cdc-2d1efe648ac4))
+  (pad "2" smd rect (at 0.3 0) (size 0.6 0.5) (layers "F.Cu")
+    (solder_mask_margin 0.000001) (clearance 0.000001) (tstamp bbd6ee07-e46d-4b4c-90d9-8cc9f9d34592))
+)

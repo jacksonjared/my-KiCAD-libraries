@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +20V
+D Power symbol creates a global label with name "+20V"
+K power-flag
+$ENDCMP
+#
+$CMP Atmel_SPI
+D Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Atmel_UPDI
+D Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP BZA800AVL
+D Quadruple low capacitance ESD
+K TVS diode array
+F https://assets.nexperia.com/documents/data-sheet/BZA800AVL_SERIES.pdf
+$ENDCMP
+#
+$CMP NCP3063D
+D 1.5 A, Step-Up/Down/Inverting SwitchingRegulators
+F https://www.onsemi.com/pub/Collateral/NCP3063-D.PDF
+$ENDCMP
+#
+#End Doc Library
